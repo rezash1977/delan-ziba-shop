@@ -1,22 +1,9 @@
 {
-  "name": "delanbeauty", // نام پروژه خود را اینجا وارد کنید
-  "type": "typescript", // نوع پروژه به صورت تایپ‌اسکریپت
-  "build": {
-    "command": "npm run build", // دستور ساخت پروژه
-    "main": "src/main.tsx" // مسیر فایل ورودی شما (در اینجا 'src/main.tsx')
-  },
-  "env": {
-    "production": {
-      "workers_dev": false // حالت برای محیط تولید
-    },
-    "development": {
-      "workers_dev": true // حالت برای محیط توسعه
+    "name": "delanbeauty",
+    "compatibility_date": "2025-06-04",
+    "assets": {
+      "directory": "./dist",
+        "pages_build_output_dir": "dist"
     }
-  },
-  "routes": [
-    {
-      "pattern": "example.com/*", // الگوی مسیر برای روت کردن
-      "script": "delanbeauty" // نام اسکریپت ورکر
-    }
-  ]
-}
+  }
+  
